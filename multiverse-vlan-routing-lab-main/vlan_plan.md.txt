@@ -1,0 +1,16 @@
+# VLAN Plan
+
+## VLAN 10 - Avengers
+- Iron Man
+- Captain America
+- Network: 192.168.10.0/24
+
+## VLAN 20 - Guardians
+- Star-Lord
+- Groot
+- Network: 192.168.20.0/24
+
+## VLAN 30 - X-Men
+- Wolverine
+- Deadpool
+- Network: 192.168.30.0/24

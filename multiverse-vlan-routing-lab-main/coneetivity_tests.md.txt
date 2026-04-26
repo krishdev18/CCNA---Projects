@@ -1,0 +1,15 @@
+# Connectivity Tests
+
+## Same VLAN
+- Iron Man → Captain America ✅
+- Star-Lord → Groot ✅
+- Wolverine → Deadpool ✅
+
+## Inter-VLAN
+- Iron Man → Deadpool ✅
+- Groot → Wolverine ✅
+
+## Gateway Tests
+- VLAN 10 → 192.168.10.1 ✅
+- VLAN 20 → 192.168.20.1 ✅
+- VLAN 30 → 192.168.30.1 ✅

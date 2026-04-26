@@ -1,0 +1,25 @@
+enable
+conf t
+
+vlan 10
+name AVENGERS
+
+vlan 20
+name GUARDIANS
+
+vlan 30
+name XMEN
+
+interface fa0/3
+switchport mode access
+switchport access vlan 10
+
+interface fa0/4
+switchport mode access
+switchport access vlan 20
+
+interface fa0/1
+switchport mode trunk
+
+interface fa0/2
+switchport mode trunk

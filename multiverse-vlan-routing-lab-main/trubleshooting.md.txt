@@ -1,0 +1,29 @@
+# Troubleshooting Log
+
+## Issue 1: Devices stuck in VLAN 1
+- Cause: VLAN not assigned to ports
+- Fix: Used `switchport access vlan`
+
+---
+
+## Issue 2: Trunk not working
+- Cause: Only one side configured
+- Fix: Enabled trunk on both switches
+
+---
+
+## Issue 3: Native VLAN mismatch
+- Cause: Different native VLANs on trunk ports
+- Fix: Standardized native VLAN
+
+---
+
+## Issue 4: Inter-VLAN communication failure
+- Cause: Missing default gateway
+- Fix: Configured correct gateway on PCs
+
+---
+
+## Issue 5: Guardians VLAN issue
+- Cause: VLAN/IP mismatch
+- Fix: Corrected VLAN assignment and IP configuration
