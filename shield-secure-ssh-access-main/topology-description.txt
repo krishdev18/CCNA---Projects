@@ -1,0 +1,9 @@
+# Topology Description
+
+The network consists of a central router connected to a switch, which connects multiple PCs.
+
+- Router acts as gateway (192.168.1.1)
+- Switch connects all admin systems
+- PCs represent S.H.I.E.L.D engineers
+
+All devices are in the same subnet.

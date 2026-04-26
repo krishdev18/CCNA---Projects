@@ -1,0 +1,17 @@
+# Connectivity Tests
+
+## Telnet Test
+telnet 192.168.1.1  
+Result: Success (insecure)
+
+---
+
+## SSH Test
+ssh -l ironman 192.168.1.1  
+Result: Success (secure)
+
+---
+
+## Ping Test
+ping 192.168.1.1  
+Result: Success
